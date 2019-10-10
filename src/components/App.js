@@ -3,6 +3,10 @@ import Navbar from "./Navbar"
 import './App.css';
 import Web3 from 'web3'
 import Main from './Main'
+
+const ipfsClient = require('ipfs-http-client')
+const ipfs = ipfsClient({ host: 'ipfs.infura.io', port: '5001', protocol: 'https' })
+
 class App extends Component {
 
     async componentWillMount() {
@@ -38,12 +42,33 @@ class App extends Component {
             account: null,
         }
     }
+    captureFile = (e) => {
+         e.preventDefault();
+         const file = e.target.files[0]
+         const reader = new window.FileReader()
+         reader.readAsArrayBuffer(file)
+         reader.onloadend = () => {
+             this.setState({buffer: Buffer(reader.result)})
+
+         }
+         console.log()
+    }
+    onSubmit =(e) => {
+        e.preventDefault();
+        ipfs.add(this.state.buffer, (error, result) => {
+            this.setState({img: "https://ipfs.infura.io/ipfs/"+result[0].hash})
+            if(error) {
+                console.error(error)
+                return
+            }
+        })
+    }
 
   render() {
     return (
       <div>
       <Navbar account={this.state.account} />
-
+      <Main img={this.state.img} captureFile={this.captureFile.bind(this)} onSubmit={this.onSubmit.bind(this)}/>
       </div>
     );
   }
