@@ -1,9 +1,9 @@
 {
-    "homepage":"github.com/MrRav3n/Basic-token-ERC20.git",
   "name": "starter-kit",
   "version": "0.1.0",
   "description": "Starter Kit for react-dapps",
   "author": "MrRav3n",
+  "homepage": "https://MrRav3n.github.io/Basic-token-ERC20",
   "dependencies": {
     "babel-polyfill": "6.26.0",
     "babel-preset-env": "1.7.0",
@@ -15,6 +15,7 @@
     "chai": "4.2.0",
     "chai-as-promised": "7.1.1",
     "chai-bignumber": "3.0.0",
+    "gh-pages": "^2.1.1",
     "ipfs-http-client": "^38.2.0",
     "react": "16.8.4",
     "react-bootstrap": "1.0.0-beta.5",
