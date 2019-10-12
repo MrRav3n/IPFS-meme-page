@@ -6,7 +6,7 @@ import React from 'react'
             return(
                 <span className="text-center">
                 <form className="container mt-5" onSubmit={this.props.onSubmit}>
-                <img className=" mb-5 rounded"src={this.props.img} />
+                <img className=" mb-5 rounded" width="500" height="400" src={this.props.img} />
                 <h2  className="mb-3">Change meme</h2>
                 <div className="custom-file row ">
                     <input type="file" className="custom-file-input col"  onChange={this.props.captureFile}/>

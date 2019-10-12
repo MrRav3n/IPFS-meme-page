@@ -388,10 +388,10 @@
     "version": "0.5.8+commit.23d335f2.Emscripten.clang"
   },
   "networks": {
-    "5777": {
+    "3": {
       "events": {},
       "links": {},
-      "address": "0x760a8Fee515914D125cEa69235AED20aE73B9c24",
+      "address": "0xeef1714333332a12b375d59989302eccc0aa0785",
       "transactionHash": "0x193ca5c89b9cf3cc26d25d1037c76f08e7472532c75a3b2103a9004de91531b6"
     }
   },
