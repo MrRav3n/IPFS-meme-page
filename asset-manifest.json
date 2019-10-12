@@ -1,15 +1,15 @@
 {
-  "main.css": "/Basic-token-ERC20/static/css/main.0cd6b5bc.chunk.css",
-  "main.js": "/Basic-token-ERC20/static/js/main.2cab1475.chunk.js",
-  "main.js.map": "/Basic-token-ERC20/static/js/main.2cab1475.chunk.js.map",
-  "static/css/1.1052d772.chunk.css": "/Basic-token-ERC20/static/css/1.1052d772.chunk.css",
-  "static/js/1.7df8f5ba.chunk.js": "/Basic-token-ERC20/static/js/1.7df8f5ba.chunk.js",
-  "static/js/1.7df8f5ba.chunk.js.map": "/Basic-token-ERC20/static/js/1.7df8f5ba.chunk.js.map",
-  "runtime~main.js": "/Basic-token-ERC20/static/js/runtime~main.bb6624a9.js",
-  "runtime~main.js.map": "/Basic-token-ERC20/static/js/runtime~main.bb6624a9.js.map",
-  "static/css/1.1052d772.chunk.css.map": "/Basic-token-ERC20/static/css/1.1052d772.chunk.css.map",
-  "static/css/main.0cd6b5bc.chunk.css.map": "/Basic-token-ERC20/static/css/main.0cd6b5bc.chunk.css.map",
-  "index.html": "/Basic-token-ERC20/index.html",
-  "precache-manifest.2e925f17cbdf7323fd5b60ad719631e8.js": "/Basic-token-ERC20/precache-manifest.2e925f17cbdf7323fd5b60ad719631e8.js",
-  "service-worker.js": "/Basic-token-ERC20/service-worker.js"
+  "main.css": "/IPFS-meme-page/static/css/main.0cd6b5bc.chunk.css",
+  "main.js": "/IPFS-meme-page/static/js/main.e748434b.chunk.js",
+  "main.js.map": "/IPFS-meme-page/static/js/main.e748434b.chunk.js.map",
+  "static/css/1.1052d772.chunk.css": "/IPFS-meme-page/static/css/1.1052d772.chunk.css",
+  "static/js/1.b88ffc58.chunk.js": "/IPFS-meme-page/static/js/1.b88ffc58.chunk.js",
+  "static/js/1.b88ffc58.chunk.js.map": "/IPFS-meme-page/static/js/1.b88ffc58.chunk.js.map",
+  "runtime~main.js": "/IPFS-meme-page/static/js/runtime~main.04689b6e.js",
+  "runtime~main.js.map": "/IPFS-meme-page/static/js/runtime~main.04689b6e.js.map",
+  "static/css/1.1052d772.chunk.css.map": "/IPFS-meme-page/static/css/1.1052d772.chunk.css.map",
+  "static/css/main.0cd6b5bc.chunk.css.map": "/IPFS-meme-page/static/css/main.0cd6b5bc.chunk.css.map",
+  "index.html": "/IPFS-meme-page/index.html",
+  "precache-manifest.65354f1d095c5bd0d847314d128e8453.js": "/IPFS-meme-page/precache-manifest.65354f1d095c5bd0d847314d128e8453.js",
+  "service-worker.js": "/IPFS-meme-page/service-worker.js"
 }

@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/Basic-token-ERC20/precache-manifest.2e925f17cbdf7323fd5b60ad719631e8.js"
+  "/IPFS-meme-page/precache-manifest.65354f1d095c5bd0d847314d128e8453.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/Basic-token-ERC20/index.html", {
+workbox.routing.registerNavigationRoute("/IPFS-meme-page/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
