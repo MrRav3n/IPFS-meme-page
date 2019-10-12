@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "github.com/MrRav3n/Basic-token-ERC20.git/precache-manifest.7ce316fb63c5027449bc050ed09db3c3.js"
+  "github.com/MrRav3n/Basic-token-ERC20/precache-manifest.7d68d347559465050ce211dcc4265f77.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("github.com/MrRav3n/Basic-token-ERC20.git/index.html", {
+workbox.routing.registerNavigationRoute("github.com/MrRav3n/Basic-token-ERC20/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
