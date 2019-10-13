@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "Starter Kit for react-dapps",
   "author": "MrRav3n",
-  "homepage": "https://MrRav3n.github.io/Basic-token-ERC20",
+  "homepage": "https://MrRav3n.github.io/IPFS-meme-page",
   "dependencies": {
     "babel-polyfill": "6.26.0",
     "babel-preset-env": "1.7.0",
